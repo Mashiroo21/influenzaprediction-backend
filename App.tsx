@@ -7,7 +7,7 @@ function App(): React.ReactElement {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <WebView source={{ uri: 'http://10.0.2.2:8501' }} style={{ flex: 1 }} />
+        <WebView source={{ uri: 'https://influenza-prediction-backend-21.streamlit.app/' }} style={{ flex: 1 }} />
       </SafeAreaView>
     </SafeAreaProvider>
   );
